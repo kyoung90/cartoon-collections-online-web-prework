@@ -8,10 +8,10 @@ end
 
 def summon_captain_planet(planeteers)# code an argument here
   # Your code here
-  planeteers.collect do |planeteer|
+  arr = planeteers.collect do |planeteer|
     planeteer = planeteer[0].upcase + planeteer[1..-1] + "!"
   end
-  return planeteers
+  return arr
 end
 
 def long_planeteer_calls# code an argument here
